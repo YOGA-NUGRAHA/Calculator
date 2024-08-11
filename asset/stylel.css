@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    align-items: center;
+    background-image: url(./background\ kalkulator.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 450px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    outline: none;
+}
+
+select {
+    padding: 8px;
+    align-items: center; 
+    border-radius: 8px;
+    margin: 10px 55px 0 170px;
+    border: none;
+    -webkit-appearance: none;
+}
+
+button {
+    margin-top: 10px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1ACEF8;
+    margin-left: 65px;
+    border: none;
+}
+
+input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 65px;
+    width: 230px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.hasil {
+    margin-bottom: 20px;
+}
